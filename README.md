@@ -1,6 +1,7 @@
 # Go Language Learning
 
-![Go Programming Language](image\golang-horizontal.svg)
+![Go Programming Language](https://raw.githubusercontent.com/SouravUpadhyay7/GO-Lang-/main/image/golang-horizontal.svg)
+
 
 <div align="center">
 
