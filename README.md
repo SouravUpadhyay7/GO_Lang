@@ -1,4 +1,6 @@
-# 🐹 Go Language Learning
+# Go Language Learning
+
+![Go Programming Language](image\golang-horizontal.svg)
 
 <div align="center">
 
@@ -13,8 +15,6 @@
 ## 📚 About
 
 This repository contains all my Go programming practice codes and exercises while learning from GeeksforGeeks course.
-
-
 
 ## 🎯 Topics Covered
 
@@ -39,7 +39,6 @@ func main() {
     fmt.Println("Learning with Ashwin Kulkarni Bhaiya")
 }
 ```
-
 
 ## 📖 Resources
 
