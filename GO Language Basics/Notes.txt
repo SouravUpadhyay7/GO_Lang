@@ -1,0 +1,98 @@
+GO VARIABLES AND TYPES
+
+VARIABLES
+- named storage locations in memory
+- store, modify, retrieve data
+- var name type = value
+- name := value
+
+BASIC TYPES
+
+Integer Types:
+int, int8, int16, int32, int64
+uint, uint8, uint16, uint32, uint64
+byte (same as uint8)
+rune (same as int32)
+
+Example:
+var age int = 25
+count := 10
+
+Floating Point Types:
+float32, float64
+
+Example:
+var price float32 = 19.99
+height := 5.8
+
+Boolean Type:
+bool
+
+Example:
+var isActive bool = true
+found := false
+
+String Type:
+string
+
+Example:
+var name string = "John"
+city := "Paris"
+
+COMPOSITE TYPES
+
+Arrays:
+[n]T - fixed size
+
+Example:
+var nums [3]int = [3]int{1, 2, 3}
+colors := [2]string{"red", "blue"}
+
+Slices:
+[]T - dynamic size
+
+Example:
+var nums []int = []int{1, 2, 3}
+names := []string{"Alice", "Bob"}
+
+Structs:
+type Name struct { fields }
+
+Example:
+type Person struct {
+    Name string
+    Age  int
+}
+var p Person = Person{"John", 25}
+
+Maps:
+map[KeyType]ValueType
+
+Example:
+var scores map[string]int = make(map[string]int)
+ages := map[string]int{"Alice": 30, "Bob": 25}
+
+Channels:
+chan T
+
+Example:
+var ch chan int = make(chan int)
+messages := make(chan string)
+
+REFERENCE TYPES
+
+Pointers:
+*T - pointer to type T
+
+Example:
+var p *int
+x := 42
+p = &x
+fmt.Println(*p) // prints 42
+
+ZERO VALUES
+int: 0
+float: 0.0
+bool: false
+string: ""
+pointer/slice/map/channel: nil
