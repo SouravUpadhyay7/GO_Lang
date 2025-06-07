@@ -19,14 +19,8 @@ This repository contains all my Go programming practice codes and exercises whil
 
 ## 🎯 Topics Covered
 
-- ✅ Variables and Data Types
-- ✅ Control Flow (if, for, switch)
-- 🔄 Functions and Methods
-- ⏳ Arrays and Slices
-- ⏳ Maps and Structs
-- ⏳ Interfaces
-- ⏳ Goroutines and Channels
-- ⏳ Web Development basics
+- ✅ GO Language Basics
+
 
 ## 🚀 Quick Start
 
