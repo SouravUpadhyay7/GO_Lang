@@ -20,6 +20,8 @@ This repository contains all my Go programming practice codes and exercises whil
 ## 🎯 Topics Covered
 
 - ✅ GO Language Basics
+- ✅ Advanced Structures and Functions
+- ✅ Error Handling and Best Practices
 
 
 ## 🚀 Quick Start
